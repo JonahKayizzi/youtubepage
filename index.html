@@ -1,0 +1,406 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Youtube Page Replica</title>
+        <link rel="icon" type="image/icon.jpg" href="/images/favicon.ico">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="https://use.fontawesome.com/d7516aab83.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header id="header">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <img src="image/logo.jpg" id="header-img" alt="logo">
+            <input id="search" autocapitalize="none" tabindex="0" type="text" placeholder="Search">
+            <button id="search-button">
+                <i id="search-icon" class="fa fa-search" aria-hidden="true"></i>
+            </button>
+            
+            <i id="mic" class="fa fa-microphone" aria-hidden="true"></i>
+            <i class="fa fa-file-video-o" aria-hidden="true"></i>
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+            <img src="image/profile-pic.jpg" id="profile-pic" alt="logged-in">
+            
+        </header>
+
+        <div class="main">
+            <div class="main-inner">
+                <div class="container">
+                    <div class="row">
+                        <div id="video-section" class="col-sm-6 col-lg-7">
+                            <div class="content">
+                               
+                                <div class="cards-row">
+                                        
+                                        <div class="card-row">
+                                            <div class="card-row-inner">
+
+                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/RGOj5yH7evk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                                                </iframe>    
+                                                
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+                                    
+                                        <div class="card-row">
+                                            <div class="card-row-inner">
+                                                <div class="card-row-body">
+                                                    <h2 class="card-row-title">Git and Github Crash course for beginners</h2>
+                                                    <div class="card-row-content">
+                                                        <p>
+                                                            <b>67,339 views  Feb 28, 2014 </b>
+                                                            How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project
+                                                            <b>...more</b>
+                                                        </p>
+                                                        <p id="video-engagements">
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"><b>   48</b></i> <b> Like</b>
+                                                            <i class="fa fa-thumbs-o-down" aria-hidden="true"><b>   2</b></i> <b> Dislike</b>
+                                                            <i class="fa fa-share-square-o" aria-hidden="true"></i> <b>Share</b>
+                                                            <i class="fa fa-scissors" aria-hidden="true"></i> <b>Clip</b>
+                                                            <i class="fa fa-bars" aria-hidden="true" style="padding-right:0px"></i> 
+                                                            <i class="fa fa-plus" aria-hidden="true" style="padding-left:0px"></i> <b>Save</b> <b> ... </b>
+                                                        </p>
+                                                    </div><!-- /.card-row-content -->
+                                                </div><!-- /.card-row-body -->
+                                                <div class="card-row-image" data-background-image="assets/img/tmp/product-3.jpg">
+                                                    <div class="card-row-label">
+                                                        <div><img src="image/channel-pic.jpg" id="channel-pic" alt="logged-in"></div>
+                                                        
+                                                        <div class="card-row-price">
+                                                            <p><b>The Odin Project</b></p>
+                                                            <p><small>1.1K subscribers</small></p>
+                                                        </div>
+                                                        <div id="subscribe"><img src="image/subscribe.png" id="subscribe-pic" alt="logged-in"></div>    
+                                                    </div><!-- /.card-row-label -->
+                                                    
+                                                        <!-- -->
+                                                    
+                                                </div><!-- /.card-row-image -->
+
+
+                                                <div class="card-row-properties">
+                                                    <div id="comments-no">
+                                                        <p><b>Comments</b></p>
+                                                        <small>18</small>
+                                                    </div>
+                                                    <div><img src="image/profile-pic.jpg" id="profile-pic" alt="logged-in"></div>
+                                                    <input autocapitalize="none" tabindex="0" type="text" placeholder="Add a comment">
+                                                    
+                                                </div><!-- /.card-row-properties -->
+                                                
+
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+                                    
+                                        
+                                    
+                                        <div class="card-row">
+                                            <div class="card-row-comments">
+                                                
+                                                <div>
+                                                    <img src="image/comm1.jpg" id="channel-pic" alt="logged-in">
+                                                </div>
+                                                <div class="card-row-body">
+                                                    <p class="card-row-title"><b>Christine Fredricksen</b> 5 years ago</p>
+                                                    <div class="card-row-content"><p>Thanks so much ! This video was really helpful and to the point.
+
+                                                    </p></div><!-- /.card-row-content -->
+                                                    <div>
+                                                        <small>
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> <small>4</small> </i> 
+                                                            <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+                                                            <small>REPLY</small>
+                                                        </small>
+                                                        
+                                                    </div>
+                                                    
+
+                                                </div><!-- /.card-row-body -->
+
+                                               
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+
+                                        <div class="card-row">
+                                            <div class="card-row-comments">
+                                                
+                                                <div>
+                                                    <img src="image/comm2.jpg" id="channel-pic" alt="logged-in">
+                                                </div>
+                                                <div class="card-row-body">
+                                                    <p class="card-row-title"><b>Roshan Jossey</b> 5 years ago</p>
+                                                    <div class="card-row-content">
+                                                        <p>
+                                                            I've started on a project to help beginners to get started on contributing to open source projects. It's a hands-on tutorial to learn the general workflow in github. Check it out at https://github.com/Roshanjossey/first-contributions
+                                                        </p>
+                                                    </div><!-- /.card-row-content -->
+                                                    <div>
+                                                        <small>
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> <small>4</small>  </i> 
+                                                            <i class="fa fa-thumbs-o-down" aria-hidden="true"> <small>2</small>  </i>
+                                                            <small>REPLY</small>
+                                                        </small>
+                                                        
+                                                    </div>
+                                                    
+
+                                                </div><!-- /.card-row-body -->
+
+                                               
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+
+                                        <div class="card-row">
+                                            <div class="card-row-comments">
+                                                
+                                                <div>
+                                                    <img src="image/comm3.jpg" id="channel-pic" alt="logged-in">
+                                                </div>
+                                                <div class="card-row-body">
+                                                    <p class="card-row-title"><b>ButtonMasher</b> 6 years ago</p>
+                                                    <div class="card-row-content"><p>Wow this video was super helpful, clear, and concise. Thank you very much.</p></div><!-- /.card-row-content -->
+                                                    <div>
+                                                        <small>
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true">  <small>3</small> </i> 
+                                                            <i class="fa fa-thumbs-o-down" aria-hidden="true">  <small>2</small> </i>
+                                                            <small>REPLY</small>
+                                                        </small>
+                                                        
+                                                    </div>
+                                                    
+
+                                                </div><!-- /.card-row-body -->
+
+                                               
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+
+                                        <div class="card-row">
+                                            <div class="card-row-comments">
+                                                
+                                                <div>
+                                                    <img src="image/comm4.jpg" id="channel-pic" alt="logged-in">
+                                                </div>
+                                                <div class="card-row-body">
+                                                    <p class="card-row-title"><b>Luyi Ren</b> 4 years ago</p>
+                                                    <div class="card-row-content"><p>Your video helped me try to make my first contribution! Thank you so much!</p></div><!-- /.card-row-content -->
+                                                    <div>
+                                                        <small>
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 
+                                                            <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+                                                            <small>REPLY</small>
+                                                        </small>
+                                                        
+                                                    </div>
+                                                    
+
+                                                </div><!-- /.card-row-body -->
+
+                                               
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+
+                                        <div class="card-row">
+                                            <div class="card-row-comments">
+                                                
+                                                <div>
+                                                    <img src="image/comm5.jpg" id="channel-pic" alt="logged-in">
+                                                </div>
+                                                <div class="card-row-body">
+                                                    <p class="card-row-title"><b>1newbbie</b> 3 years ago</p>
+                                                    <div class="card-row-content"><p>A remark to what happening at 04:12 is: after clicking "Propose file change", it now goes to commit page instead of the pull request screen as shown on the video. One need to click the commit name (e.g. patch-1 if it is the first commit of your branch) near the top of the screen to go to the pull request</p></div><!-- /.card-row-content -->
+                                                    <div>
+                                                        <small>
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> <small>1</small></i> 
+                                                            <i class="fa fa-thumbs-o-down" aria-hidden="true"><small>3</small></i>
+                                                            <small>REPLY</small>
+                                                        </small>
+                                                        
+                                                    </div>
+                                                    
+
+                                                </div><!-- /.card-row-body -->
+
+                                               
+                                            </div><!-- /.card-row-inner -->
+                                        </div><!-- /.card-row -->
+
+                                    
+
+                                    
+                                </div><!-- /.cards-row -->
+
+                            </div><!-- /.content -->
+                        </div><!-- /.col-* -->
+
+                        <div class="col-sm-5 col-lg-4">
+                            <div class="sidebar">
+                                <div class="widget">
+                                    <div class="sidebar-menu">
+                                        <ul>
+                                            <li class="active"><a>All</a></li>
+                                            <li class="inactive"><a>Git</a></li>
+                                            <li class="inactive"><a>Related</a></li>
+                                            <li class="inactive"><a>Watched</a></li>
+                                        </ul>
+                                    </div>
+                                       
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <iframe width="180" height="100" src="https://www.youtube.com/embed/videoseries?list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Rust open-source contributions stream</b></p>
+                                                <p><small>Jon Gjengset</small></p>
+                                                <p><small>14K views 3 years ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+                                
+                                    
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/1.jpg" class="video-thumbnail" alt="Healthy Breakfast">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Contributing to Open Source Part II: The Real Way</b></p>
+                                                <p><small>The Odin Project</small></p>
+                                                <p><small>38K views 8 years ago </small></p>
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+  
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/2.jpg" class="video-thumbnail" alt="Coffee &amp; Newspaper">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Git and GitHub for Beginners: GitHub basics, and how to ...</b></p>
+                                                <p><small>Kevin Powell</small></p>
+                                                <p><small>77K views 5 years ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/3.jpg" class="video-thumbnail" alt="Coffee &amp; Newspaper">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Complete Guide to Open Source - How to Contribute</b></p>
+                                                <p><small>freeCodeCamp.org</small></p>
+                                                <p><small>394K views 1 year ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/4.jpg" class="video-thumbnail" alt="Coffee &amp; Newspaper">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Mark Bates Explains 5 Steps to Get Better at Coding</b></p>
+                                                <p><small>O'Reilly</small></p>
+                                                <p><small>135K views 6 years ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/5.jpg" class="video-thumbnail" alt="Coffee &amp; Newspaper">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>APIs for Beginners - How to use an API (Full Course / Tutorial)</b></p>
+                                                <p><small>freeCodeCamp.org</small></p>
+                                                <p><small>3.2M views 2 years ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/6.jpg" class="video-thumbnail" alt="Coffee &amp; Newspaper">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Rust open-source contributions stream</b></p>
+                                                <p><small>Jon Gjengset</small></p>
+                                                <p><small>14K views 3 years ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+
+                                    <div class="cards-small">
+                                        <div class="card-small">
+                                            <div class="card-small-image">
+                                                <a href="listing-detail.html">
+                                                    <img src="image/7.png" class="video-thumbnail" alt="Coffee &amp; Newspaper">
+                                                </a>
+                                            </div><!-- /.card-small-image -->
+
+                                            <div class="card-small-content">
+                                                <p><b>Contributing to Open Source for the first time</b></p>
+                                                <p><small>Meta Open Source</small></p>
+                                                <p><small>189K views 2 years ago</small></p>
+                                            </div><!-- /.card-small-content -->
+                                        </div><!-- /.card-small -->
+                                    </div><!-- /.cards-small -->
+
+                                    <div class="pager">
+                                        <ul>
+                                            
+                                            <li class="active"><a>more</a></li>
+                               
+                                        </ul>
+                                    </div><!-- /.pagination -->
+        
+                                </div><!-- /.widget -->
+
+
+                            </div><!-- /.sidebar -->
+                        </div><!-- /.col-* -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.main-inner -->
+        </div><!-- /.main -->
+
+    </body>
+    </html>
